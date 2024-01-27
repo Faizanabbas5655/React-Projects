@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  display: block;
+}
+
+.sideBar {
+  min-height: 600px;
+}
+
+.post-card {
+  margin: 20px 30px;
+}
+
+.post-tags {
+  margin: 8px 3px;
+}
+
+.reactions {
+  margin: 15px 0px 0px 0px;
+}
+
+.newPostForm {
+  width: 80%;
+  align-items: center;
+  margin: 50px 10%;
+}
+
+.items {
+  margin-top: 15px;
+}
+
+.reactionsDiv {
+  cursor: pointer;
+  user-select: none;
+}
+
+.welcome-message {
+  margin-top: 100px;
+  text-align: center;
+}
+.delete-button {
+  cursor: pointer;
+}
+
+.postReactions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.postReactions div {
+  margin: 0px 50px;
+}
+
+.postHeading {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.postBody {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lineBreak {
+  height: 6px;
+  background: black;
+}
